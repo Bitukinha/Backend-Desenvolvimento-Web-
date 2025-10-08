@@ -26,7 +26,7 @@ public class ClienteService {
 
     public Cliente buscarClientePorId(Long id) {
         return clienteRepository
-                .findById(id).orElseThrow(() -> new RuntimeException("Cliente de ID " + id + " não encontrado"));
+                .findById(id).orElseThrow(() -> new RuntimeException("Cliente de ID " + id + " Cliente não encontrado"));
     }
 
     public void deletarClientePorId(Long id) {
