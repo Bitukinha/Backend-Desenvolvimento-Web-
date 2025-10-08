@@ -11,6 +11,6 @@ public class StatusApiController {
 
     @GetMapping()
     public String getStatus() {
-        return "Api está Funcionando";
+        return "Api está Funcionando Corretamente";
     }
 }
